@@ -24,7 +24,7 @@ The output directory will contain the saved model and the weights.
 ### Training Debiased Word Embeddings
 The script ```train.py``` can be used to train two types of word representations: (i) skip-gram embeddings, and (ii) debiased word embeddings. 
 
-The required parameters for training word representations are the following. First, it is necessary to specify your ``input text file``, ``the output directory``, and the ``path to the oracle weights .txt`` file that you created in the previous step. Namely, the ```train.py``` has the following parameters:
+The required parameters for trainingu word representations are the following. First, it is necessary to specify your ``input text file``, ``the output directory``, and the ``path to the oracle weights .txt`` file that you created in the previous step. Namely, the ```train.py``` has the following parameters:
 
 * ```-i``` is the parameter for the ```input text file``` which is used as the data for training the embeddings.
 * ```-o``` is the parameter that specifies the ```output directory```.
